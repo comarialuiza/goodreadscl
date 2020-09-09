@@ -1,8 +1,14 @@
 import React from 'react';
 
+import Overview from './pages/Overview';
+import GlobalStyle from './styles/global';
+
 function App() {
-  return (
-    <h1>Goodreads redesign</h1>
+  return(
+    <>
+      <Overview />
+      <GlobalStyle />
+    </>
   );
 }
 
